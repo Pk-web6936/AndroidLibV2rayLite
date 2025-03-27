@@ -143,7 +143,7 @@ func (v *V2RayPoint) pointloop() error {
 		return err
 	}
 
-	log.Println("new v2ray v2ray core")
+	log.Println("new v2ray core")
 	v.Vpoint, err = v2core.New(config)
 	if err != nil {
 		v.Vpoint = nil
